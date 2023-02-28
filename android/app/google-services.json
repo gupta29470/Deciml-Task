@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "400627354878",
+    "project_id": "pseudo-deciml",
+    "storage_bucket": "pseudo-deciml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400627354878:android:f03daf69a6e3658aed29af",
+        "android_client_info": {
+          "package_name": "com.example.pseudo_deciml"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400627354878-97ffqae81kqk7h4epqod94ts0agj4vd3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pseudo_deciml",
+            "certificate_hash": "66e351736fbd7e1b4bbd0de32af86cc365e8a43b"
+          }
+        },
+        {
+          "client_id": "400627354878-1qitj60jl9e0649iq80g5hqvrs4kqj4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5eVAm1BOZc0nCPUIwmGbkn3hgbrBefHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400627354878-1qitj60jl9e0649iq80g5hqvrs4kqj4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
