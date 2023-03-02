@@ -5,10 +5,10 @@ extension on _HomeScreenState {
     int amountSpent = int.tryParse(_amountController.text) ?? 0;
 
     if (amountSpent > 0) {
-      int mod = amountSpent % 10;
-      int nearestTen = 10 - mod;
+      int mod = amountSpent % roundupConfigNotifier.value;
+      int result = roundupConfigNotifier.value - mod;
 
-      roundupSpentNotifier.value = roundupConfigNotifier.value * nearestTen;
+      roundupSpentNotifier.value = result;
     }
   }
 
